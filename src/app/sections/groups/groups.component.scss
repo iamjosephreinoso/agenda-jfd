@@ -1,0 +1,168 @@
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Color de fondo para filas alternas */
+  border: 5px solid #003366;
+}
+
+.table-bordered {
+  border: 5px solid #003366; /* Borde de la tabla */
+}
+
+.table-bordered th, .table-bordered td {
+  border: 5px solid #003366; /* Borde de las celdas */
+  padding: 8px; /* Espaciado interno de las celdas */
+  text-align: center; /* Centrar el texto en las celdas */
+}
+
+.table-bordered th {
+  background-color: #003366; /* Color de fondo del encabezado */
+  color: white; /* Color del texto del encabezado */
+  border: 5px solid #003366;
+}
+
+/* Espaciado en la sección principal */
+.main {
+  padding: 20px
+}
+
+/* Espaciado alrededor del contenido */
+.container {
+  margin-top: 20px;
+}
+
+
+/* Estilo para la tabla DataTables */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+/* Estilo para el encabezado de la tabla */
+.table thead th {
+  background-color: #003366; /* Fondo oscuro para el encabezado */
+  color: white; /* Color del texto en el encabezado */
+  text-align: center; /* Centrar texto en el encabezado */
+  padding: 10px; /* Espacio interno en el encabezado */
+  border: 5px solid #003366;
+}
+
+/* Estilo para las celdas de la tabla */
+.table tbody td {
+  text-align: center; /* Centrar texto en las celdas */
+  padding: 10px; /* Espacio interno en las celdas */
+  border: 5px solid #003366;
+}
+
+/* Estilo para filas alternas en la tabla */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9; /* Color de fondo para filas alternas */
+  border: 5px solid #003366;
+}
+
+/* Estilo para bordes en la tabla */
+.table-bordered {
+  border: 1px solid #003366; /* Borde de la tabla */
+}
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #003366; /* Borde de celdas */
+}
+
+/* Estilo para la barra de búsqueda */
+.dataTables_filter input {
+  border: 1px solid #003366; /* Borde del campo de búsqueda */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 5px; /* Espacio interno */
+
+}
+
+/* Estilo para el menú de longitud de página */
+.dataTables_length select {
+  border: 1px solid #ccc; /* Borde del menú de selección */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 5px; /* Espacio interno */
+}
+
+/* Estilo para los botones de paginación */
+.dataTables_paginate .pagination {
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centrar la paginación */
+}
+
+.dataTables_paginate .page-item {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.dataTables_paginate .page-link {
+  border: 1px solid #003366; /* Borde del botón de paginación */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 5px 10px; /* Espacio interno */
+  color: #007bff; /* Color del texto del botón */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.dataTables_paginate .page-link:hover {
+  background-color: #e9ecef; /* Fondo del botón en hover */
+}
+
+/* Estilo para el texto de información de la tabla */
+.dataTables_info {
+  margin-top: 10px;
+  text-align: center; /* Centrar el texto de información */
+}
+
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.icon {
+  font-size: 100px;
+  margin-bottom: 20px;
+  color: #ff6f61;
+}
+
+
+/* Centrar la barra de búsqueda */
+.dataTables_filter {
+  text-align: center !important; /* Centra el contenido */
+  width: 100% !important; /* Asegura que ocupe todo el ancho */
+  display: flex;
+  justify-content: center; /* Centra la barra dentro de su contenedor */
+}
+
+/* Estilo del label de búsqueda */
+.dataTables_filter label {
+  color: blue !important; /* Color azul */
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 10px; /* Espacio entre el label y el input */
+}
+
+/* Estilo para el input de búsqueda */
+.dataTables_filter input {
+  color: black !important;
+  background-color: white !important;
+  border: 2px solid #003366 !important; /* Borde azul */
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  width: 300px; /* Ancho de la barra de búsqueda */
+  height: 40px; /* Altura del input */
+  margin-left: 10px; /* Espacio entre el label y el input */
+}
+
+.h1-seo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
